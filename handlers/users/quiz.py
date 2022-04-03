@@ -10,11 +10,11 @@ import psycopg2
 from data.config import *
 
 con = psycopg2.connect(
-        database=DB,
-        user=USER,
-        password=PASSWORD_DB,
-        host=IP,
-        port=PORT
+        database="d2hrrbu1311r1b",
+        user="gahdttwnarszcm",
+        password="f45246e187465ddb5c8e20b62092434faf8d59cbd6404e71d36a536a983a8af1",
+        host="ec2-18-214-134-226.compute-1.amazonaws.com",
+        port=5432
     )
 
 cur = con.cursor()
