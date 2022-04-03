@@ -1,0 +1,45 @@
+Sun Apr  3 13:52:13 2022
+Windows-7-6.1.7601-SP1
+Ren'Py 7.4.11.2266
+ 
+
+Bootstrap to the start of init.init took 0.82s
+Early init took 0.03s
+Loader init took 0.09s
+Loading error handling took 0.12s
+Loading script took 1.12s
+Loading save slot metadata. took 0.14s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+ - Init at renpy/common/00updater.rpy:23 took 0.35761 s.
+Running init code took 0.67s
+Loading analysis data took 0.15s
+AnalyDump and make backups. took 0.46s
+Cleaning cache took 0.0Dump and make backups. took 0.90s
+Cleaning cache took 0.00s
+Making clean stores took 0.01s
+Initial gc. took 0.36s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: "Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.57s
+Cleaning stores took 0.0LoadInit translation took 0.92s
+Build styles took 0.15s
+Load screen analysis took 0.27s
+AnaPrepare screens took 1.08s
+Save pyanalysis. took 0.00s
+SPrepare screens took 0.75s
+Save pyanalysis. took 0.0Interface start took 1.27s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1366, 768)
+swap interval: 1 frames
+Fullscreen mode.
+Vendor: 'Intel Open Source Technology Center'
+Renderer: 'Vendor: 'Intel Open Source Technology Center'
+Renderer: 'Mesa DRI Intel(R) HD Graphics (BYT)'
+Version: '3.0 Mesa 21.3.7'
+Display Info: None
+Screen sizes: virtuaMaximum texture size: 4096x4096
+8) drawable=(1366, 768)
+Maximum texture size: 4096x4096

@@ -1,0 +1,10 @@
+﻿I'm sorry, but errors were detected in your script. Please correct the
+errors listed below, and try again.
+
+
+File "game/script.rpy", line 67: end of line expected.
+    bob "Эй, это ты [player_name]?",
+                                   ^
+
+Ren'Py Version: Ren'Py 7.4.11.2266
+Sun Apr  3 10:46:29 2022
