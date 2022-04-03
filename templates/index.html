@@ -1,0 +1,40 @@
+{% extends 'base.html' %}
+{% block title %}
+Statistic
+{% endblock %}
+<!--<style type="text/css">-->
+<!--     #table {-->
+<!--         right: 150px;-->
+<!--         bottom: 0; right: 0;-->
+<!--        }-->
+<!--</style>-->
+{% block body %}
+<h1 class="mt-5">Таблица</h1>
+<p class="lead">Статистика игроков</p>
+<table name="table", border="1">
+    <tr>
+         <th> ID </th>
+         <th> Telegram_ID </th>
+         <th> Username </th>
+         <th> Telegram_ID</th>
+         <th> Очки программиста</th>
+         <th> Очки тестера</th>
+         <th> Очки аналитика</th>
+         <th> Специальность в IT</th>
+         <th> Дан ли оффер</th>
+    </tr>
+    {% for row in rows %}
+    <tr>
+        <td>{{row[0]}}</td>
+        <td>{{row[1]}}</td>
+        <td>{{row[2]}}</td>
+        <td>{{row[3]}}</td>
+        <td>{{row[4]}}</td>
+        <td>{{row[5]}}</td>
+        <td>{{row[6]}}</td>
+        <td>{{row[7]}}</td>
+        <td>{{row[8]}}</td>
+    </tr>
+    {% endfor %}
+</table>
+{% endblock %}
